@@ -1,4 +1,4 @@
-# Project Title
+# ReadMe
 
 ReadMe is a developer's profile project, where they'll be able to create their own portfolio and maintain a blog for their knowledge
 
