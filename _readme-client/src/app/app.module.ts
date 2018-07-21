@@ -7,6 +7,8 @@ import { BodyComponent } from './_layout/body/body.component';
 import { FooterComponent } from './_layout/footer/footer.component';
 import { IntroductionComponent } from './_components/introduction/introduction.component';
 
+import { ApphelperModule } from './_modules/apphelper/apphelper.module';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -16,7 +18,8 @@ import { IntroductionComponent } from './_components/introduction/introduction.c
     IntroductionComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    ApphelperModule
   ],
   providers: [],
   bootstrap: [AppComponent]
