@@ -8,6 +8,8 @@ import { FooterComponent } from './_layout/footer/footer.component';
 import { IntroductionComponent } from './_components/introduction/introduction.component';
 
 import { ApphelperModule } from './_modules/apphelper/apphelper.module';
+import { ReadmeBioModule } from './_modules/readme.bio/readme.bio.module';
+
 
 @NgModule({
   declarations: [
@@ -19,7 +21,8 @@ import { ApphelperModule } from './_modules/apphelper/apphelper.module';
   ],
   imports: [
     BrowserModule,
-    ApphelperModule
+    ApphelperModule,
+    ReadmeBioModule
   ],
   providers: [],
   bootstrap: [AppComponent]

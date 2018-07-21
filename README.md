@@ -14,3 +14,18 @@ These instructions will get you a copy of the project up and running on your loc
 
 ## Firebase URl -
 https://readme-sagars01.firebaseapp.com/
+
+## Docker URI- 
+Create the same environment as mine with my dock for this project. This will be useful if you want to contribute to the project.
+
+https://hub.docker.com/r/sagars01/readme/
+
+# Technologies
+ - Node JS (Server Side)
+ - Express Framework (REST Framework)
+ - Angular 5 (Client Framewok)
+ - Bulma Framework (CSS Framework)
+ - Docker (Environment Manager)
+ - Firebase (Deployment and Cloud Infra.)
+
+
