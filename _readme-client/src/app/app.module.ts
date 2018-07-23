@@ -1,5 +1,5 @@
 import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
+import { NgModule, NO_ERRORS_SCHEMA } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './_layout/header/header.component';
@@ -9,6 +9,8 @@ import { IntroductionComponent } from './_components/introduction/introduction.c
 
 import { ApphelperModule } from './_modules/apphelper/apphelper.module';
 import { ReadmeBioModule } from './_modules/readme.bio/readme.bio.module';
+import { TwoColumnInfoComponent } from './_layout/two-column-info/two-column-info.component';
+
 
 
 @NgModule({
@@ -17,7 +19,8 @@ import { ReadmeBioModule } from './_modules/readme.bio/readme.bio.module';
     HeaderComponent,
     BodyComponent,
     FooterComponent,
-    IntroductionComponent
+    IntroductionComponent,
+    TwoColumnInfoComponent
   ],
   imports: [
     BrowserModule,
@@ -25,6 +28,7 @@ import { ReadmeBioModule } from './_modules/readme.bio/readme.bio.module';
     ReadmeBioModule
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
+  schemas: [NO_ERRORS_SCHEMA]
 })
 export class AppModule { }
